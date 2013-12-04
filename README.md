@@ -2,6 +2,8 @@
 
 by [@travisjeffery](http://twitter.com/travisjeffery)
 
+![judy garland](https://raw.github.com/travisjeffery/judy.js/master/judy-garland.jpg)
+
 ## wat
 
 rainbow road your links. check the demos.
