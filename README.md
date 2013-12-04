@@ -1,10 +1,8 @@
-# judy.js
-
-by [@travisjeffery](http://twitter.com/travisjeffery)
+# judy.js by [@travisjeffery](http://twitter.com/travisjeffery)
 
 ## wat
 
-rainbow road your links. check out the demos.
+rainbow road your links. check the demos.
 
 ## demo
 
