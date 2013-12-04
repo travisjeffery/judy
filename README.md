@@ -30,4 +30,4 @@ src judy.js and use the class name `js-judy` on your `a`s. for example:
 
 ## license mit
 
-see LICENSE.md for details
+see [LICENSE.md](https://github.com/travisjeffery/judy.js/blob/master/LICENSE.md) for details
