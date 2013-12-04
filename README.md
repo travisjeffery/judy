@@ -1,4 +1,6 @@
-# judy.js by [@travisjeffery](http://twitter.com/travisjeffery)
+# judy.js 
+
+by [@travisjeffery](http://twitter.com/travisjeffery)
 
 ## wat
 
