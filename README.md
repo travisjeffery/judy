@@ -14,9 +14,9 @@ see it in action at [travisjeffery.com](http://travisjeffery.com)
 
 ## usage
 
-src judy.js and use the class name js-judy on your `a`s. for example:
+src judy.js and use the class name `js-judy` on your `a`s. for example:
 
-```
+``` html
 <html>
   <head>
     <script type="text/javascript" src="judy.js"></script>
