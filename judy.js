@@ -9,7 +9,7 @@
 
   var Effect = function (element) {
     this.element = element
-    this.chars = element.querySelectorAll('.js-char')
+    this.chars = element.querySelectorAll('.js-judy-char')
     this.charsLength = this.chars.length
     if (!this.charsLength) return
     this.endIndex = 0
@@ -61,10 +61,10 @@
       var word = words[i]
         , wordElement = document.createElement('span')
         , chars = word.split('')
-      wordElement.className = 'js-word'
+      wordElement.className = 'js-judy-word'
       for (var j = 0, m = chars.length; m > j; j++) {
         var charElement = document.createElement('span')
-        charElement.className = 'js-char'
+        charElement.className = 'js-judy-char'
         charElement.textContent = chars[j]
         wordElement.appendChild(charElement)
       }
