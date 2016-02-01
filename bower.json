@@ -1,0 +1,24 @@
+{
+  "name": "judy.js",
+  "main": "judy.js",
+  "homepage": "https://github.com/travisjeffery/judy.js",
+  "authors": [
+    "Travis Jeffery <tj@travisjeffery.com>"
+  ],
+  "description": "Rainbow animate your links.",
+  "moduleType": [],
+  "keywords": [
+    "jquery",
+    "rainbow",
+    "color",
+    "animation"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
