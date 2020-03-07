@@ -21,10 +21,9 @@ src judy.js and use the class name `js-judy` on your `a`s. for example:
 ``` html
 <html>
   <head>
-    <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="judy.js"></script>
     <script type="text/javascript">
-      $('a.js-judy').judy()
+      judy('a.js-judy')
     </script>
   </head>
 
@@ -36,4 +35,4 @@ src judy.js and use the class name `js-judy` on your `a`s. for example:
 
 ## license mit
 
-see [LICENSE.md](https://github.com/travisjeffery/judy.js/blob/master/LICENSE.md) for details
+see [LICENSE.md](https://github.com/travisjeffery/judy/blob/master/LICENSE.md) for details

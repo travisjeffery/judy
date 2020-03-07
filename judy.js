@@ -1,6 +1,6 @@
-/*! written by @travisjeffery */
+/*! written by @travisjeffery; updated by @bign8 */
 
-+function ($) { 'use strict';
++function () { 'use strict';
 
   var Effect = function (element) {
     this.element      = element
@@ -81,11 +81,17 @@
     element && new Effect(element)
   }
 
-  $.fn.judy = function() {
-    document.addEventListener('mouseover', onMouseover, false)
-    return this.each(function () {
-      prepareChars(this)
-    })
+  function ready(fn) {
+    document.readyState != 'loading' ? fn() : document.addEventListener('DOMContentLoaded', fn);
   }
 
-}(jQuery);
+  window.judy = function(selector) {
+    ready(function() {
+      document.addEventListener('mouseover', onMouseover, false)
+      var elements = document.querySelectorAll(selector);
+      Array.prototype.forEach.call(elements, function(el, i){
+        prepareChars(el);
+      });
+    })
+  }
+}();
